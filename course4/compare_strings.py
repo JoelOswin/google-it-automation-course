@@ -18,7 +18,7 @@ def compare_strings(string1, string2):
 # print(string1,string2)
 
  #DEBUG CODE GOES HERE
- #print(string1 == string2)
+ #9print(string1 == string2)
 
 
  return string1 == string2
