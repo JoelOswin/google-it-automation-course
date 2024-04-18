@@ -1,11 +1,7 @@
 #!/usr/bin/env python3
 def find_item(list, item):
-<<<<<<< HEAD
-  list.sort()
-=======
  list.sort()
  #the list needs to be sorted in order to apply binary search
->>>>>>> refs/remotes/origin/main
  #Returns True if the item is in the list, False if not.
   if len(list) == 0:
    return False
