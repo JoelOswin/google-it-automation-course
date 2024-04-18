@@ -5,11 +5,11 @@ def compare_strings(string1, string2):
  #and remove leading and trailing blanks
  string1 = string1.lower().strip()
  string2 = string2.lower().strip()
-
+ #print(string1,string2)
 
  #Ignore punctuation
- punctuation = r"[.?!,;:-']" # re.error: bad character range :-' at position 6
-
+ punctuation = r"[.?!,;:\-']*" # re.error: bad character range :-' at position 6
+ #print(re.search(punctuation,string1))
 
 
 
@@ -18,7 +18,7 @@ def compare_strings(string1, string2):
 # print(string1,string2)
 
  #DEBUG CODE GOES HERE
- print(string1 == string2)
+ #print(string1 == string2)
 
 
  return string1 == string2
